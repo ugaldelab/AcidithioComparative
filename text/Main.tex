@@ -1,0 +1,76 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Comparative genomics in the \textit{Acidithiobacillus} Class}
+
+\author{Juan A. Ugalde\\
+Centro de Gen\'omica y Bioinform\'atica, \\
+Facultad de Ciencias, \\
+Universidad Mayor, \\
+\texttt{juan@ecogenomica.cl}
+}
+
+\maketitle
+
+\section*{Abstract}
+
+\section*{Introduction}
+
+The genus \textit{Acidithiobacillus} currently compromises multiple species with individual isolates that have been characterized at the physiological and biochemical level. Several of these have genome sequences availabile, and detailed characterizations have been done previously for some of the groups, such as XXX (REF). Nevertheless, no true comparative genomic analysis has been performed using all the available genomic sequences,as most of the research has been focused on individual isolates, such as \textit{A. ferrooxidans} (REF) and \textit{A. thiooxidans}.
+
+A recent analysis of the available genomes for seven members of this genus, proposed a reclassification of the \textit{Acidithiobacillales} order into a sister group of the \textit{Beta-} and \textit{Gammaproteobacteria}, based on multi-protein phylogenetic analysis (REF). This proposed two families within this new Order, the \textit{Acidithiobacillaceae} and the \textit{Thermithiobacillaceae}. 
+
+Even with this results, little is known about the evoulitoinary history of the members of the Class. This is very important in light of the diverse environments where they can be found, which goes from cold to hot temperature, and bla bla (REF).
+
+\section*{Results}
+
+\subsection*{Phylogenomics}
+
+\subsection*{Pan-genome}
+
+\subsubsection*{Size, estimation}
+\subsubsection*{Core genome (COGs?)}
+\subsubsection*{Acessory genome}
+
+
+\subsection*{Habitat specific or species specific}
+
+\subsection*{HGT}
+
+\subsection*{Selective pressure}
+
+\section*{Discussion}
+
+\section*{Methods}
+
+\subsection*{Genome data}
+\subsection*{Protein family analysis}
+
+Protein families were constructed based on the orthoMCL approache (REF), but using FastOrtho, a reimplementation of the original orthoMCL algorithm, which allows for faster analysis that does not require the use of either Perl or a MySql database (REF, PAtric). All the proteins from the analyzed genomes were blasted against each other (Blastp, \textit{all vs. all}). The results were processed using FastOrtho and the MCL algorithm (REF) with an inflation value of 1.5. The resulting data was processed using Python scripts (available here), as described in here (Markdown, supplementary). All the cluster data is available from Data Dryad under the accession number XXX.
+
+\subsection*{Phylogenetic and phylogenomic analysis}
+\subsection*{Horizontal gene transfer}
+
+\section*{Tables}
+
+%Genome table
+\begin{table}[h!]
+\caption{List of the genomes used for comparative analysis}
+      \begin{tabular}{cccc}
+        \hline
+        \textbf{Species name} & \textbf{Lifestyle} & \textbf{IMG number} & \textbf{Reference} \\ \hline
+        
+        \textit{A. caldus} ATCC 51756 & Thermophile? & 645058727 & \cite{Valdes:2009dn}\\
+        
+        \textit{A. caldus} SM-1 & & 650716003 & \cite{You:2011es}\\
+        
+        \textit{A. ferrivorans} SS3 & Psychrotolerant & 2510436001 & \cite{Liljeqvist:2011gi} \\
+        
+         
+      \end{tabular}
+\end{table}
+
+
+\end{document}
