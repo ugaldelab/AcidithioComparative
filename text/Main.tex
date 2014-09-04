@@ -46,6 +46,11 @@ Even with this results, little is known about the evoulitoinary history of the m
 \section*{Methods}
 
 \subsection*{Genome data}
+
+All the genome information was obtained from NCBI, including the protein table and the protein annotation.
+
+Eggnog classification
+
 \subsection*{Protein family analysis}
 
 Protein families were constructed based on the orthoMCL approache (REF), but using FastOrtho, a reimplementation of the original orthoMCL algorithm, which allows for faster analysis that does not require the use of either Perl or a MySql database (REF, PAtric). All the proteins from the analyzed genomes were blasted against each other (Blastp, \textit{all vs. all}). The results were processed using FastOrtho and the MCL algorithm (REF) with an inflation value of 1.5. The resulting data was processed using Python scripts (available here), as described in here (Markdown, supplementary). All the cluster data is available from Data Dryad under the accession number XXX.
