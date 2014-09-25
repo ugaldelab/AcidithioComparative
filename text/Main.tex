@@ -47,9 +47,14 @@ Even with this results, little is known about the evoulitoinary history of the m
 
 \subsection*{Genome data}
 
-All the genome information was obtained from NCBI, including the protein table and the protein annotation.
+Genome information for all \textit{Acidithiobacillus} species (Table \ref{GenomeList}) was downloaded from NCBI. To avoid biases due to differences in the annotation pipelines used for annotation, all of the genomes were re-annotated using RAST \cite{Aziz:2008kua,Overbeek:2014gg}, and the resulting annotation was used for the characterization of the species pan-genome. All the data is available in HERE!.
 
-Eggnog classification
+\subsection{Estimation of core and variable genome}
+
+To estimate the proteins that form the core and variable genome of \textit{Acidithiobacillus} an "all-vs-all" comparison using BlastP was performed
+
+
+protein families were constructed using the orthoMCL 
 
 \subsection*{Protein family analysis}
 
@@ -75,7 +80,11 @@ Protein families were constructed based on the orthoMCL approache (REF), but usi
         
          
       \end{tabular}
+\label{GenomeList}
 \end{table}
+
+\bibliographystyle{abbrv}
+\bibliography{CompletePapersLibrary}
 
 
 \end{document}

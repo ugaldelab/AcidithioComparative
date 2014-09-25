@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  4 SEP 2014 18:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  25 SEP 2014 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -123,38 +123,24 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 66.
 
-
-LaTeX Warning: Citation `Valdes:2009dn' on page 2 undefined on input line 70.
-
-
-LaTeX Warning: Citation `You:2011es' on page 2 undefined on input line 72.
-
-
-LaTeX Warning: Citation `Liljeqvist:2011gi' on page 2 undefined on input line 74.
-
-
-Overfull \hbox (1.312pt too wide) in paragraph at lines 66--78
-[][] 
+Overfull \hbox (1.312pt too wide) in paragraph at lines 66--79
+[][]
  []
 
-[2] [3] (/Users/jugalde/Documents/Research/AcidithioComparative/text/.texpadtmp/Main.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[2] (/Users/jugalde/Documents/Research/AcidithioComparative/text/.texpadtmp/Main.bbl [3]) [4] (/Users/jugalde/Documents/Research/AcidithioComparative/text/.texpadtmp/Main.aux) ) 
 Here is how much of TeX's memory you used:
- 1500 strings out of 493315
- 22035 string characters out of 6137904
- 80176 words of memory out of 5000000
- 4959 multiletter control sequences out of 15000+600000
+ 1507 strings out of 493315
+ 22246 string characters out of 6137904
+ 80199 words of memory out of 5000000
+ 4963 multiletter control sequences out of 15000+600000
  9673 words of font info for 34 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,8n,23p,703b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on /Users/jugalde/Documents/Research/AcidithioComparative/text/.texpadtmp/Main.pdf (3 pages, 103732 bytes).
+Output written on /Users/jugalde/Documents/Research/AcidithioComparative/text/.texpadtmp/Main.pdf (4 pages, 112394 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
